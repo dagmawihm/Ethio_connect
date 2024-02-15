@@ -94,7 +94,7 @@ session_start();
                         <a href="messages_viewer.php?sender=<?php echo $sender_id; ?>&receiver=<?php echo $receiver_id_start_user; ?>">
                           <div class="usr-msg-details">
                             <div class="usr-ms-img">
-                              <img src="users_img/users_pp/<?php echo $userpp; ?>" alt="">
+                              <img src="users_Img/users_pp/<?php echo $userpp; ?>" alt="">
                               <?php
                               if ($online == "true") {
 
@@ -133,7 +133,7 @@ session_start();
                           <li>
                           <div class="usr-msg-details">
                             <div class="usr-ms-img">
-                              <img src="users_img/users_pp/asdsad" alt="">
+                              <img src="users_Img/users_pp/asdsad" alt="">
                             </div>
                             <div class="usr-mg-info">
                               <h3>You have no messages!</h3>

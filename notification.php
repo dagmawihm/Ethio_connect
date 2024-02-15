@@ -107,7 +107,7 @@ session_start();
 
             <div class="notfication-details">
               <div class="noty-user-img">
-                <a href="user-profile.php?username=<?php echo $username_post; ?>" title=""><img src="users_img/users_pp/<?php echo $userpp; ?>" alt=""></a>
+                <a href="user-profile.php?username=<?php echo $username_post; ?>" title=""><img src="users_Img/users_pp/<?php echo $userpp; ?>" alt=""></a>
               </div>
               <div class="notification-info">
                 <h3><a href="user-profile.php?username=<?php echo $username_post; ?>" title=""><?php echo $ffname . " " . $llname; ?></a> <?php echo $notification1; ?></h3>

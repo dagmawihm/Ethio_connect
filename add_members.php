@@ -78,7 +78,7 @@ while ($row = mysqli_fetch_array($result_search_result)) {
               <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                 <div class="company_profile_info">
                   <div class="company-up-info">
-                    <img src="users_img/users_pp/<?php echo $profile_pic; ?>" alt="">
+                    <img src="users_Img/users_pp/<?php echo $profile_pic; ?>" alt="">
                     <h3><?php echo $f_name . " " . $l_name; ?></h3>
                     <h4><?php echo $bio; ?></h4>
                     <ul>

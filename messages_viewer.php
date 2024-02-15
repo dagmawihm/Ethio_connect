@@ -149,7 +149,7 @@ function str_con_cat($data)
                         <a href="messages_viewer.php?sender=<?php echo $sender_id; ?>&receiver=<?php echo $receiver_id_start_user; ?>">
                           <div class="usr-msg-details">
                             <div class="usr-ms-img">
-                              <img src="users_img/users_pp/<?php echo $userpp; ?>" alt="">
+                              <img src="users_Img/users_pp/<?php echo $userpp; ?>" alt="">
                               <?php
                               if ($online == "true") {
 
@@ -225,7 +225,7 @@ function str_con_cat($data)
                 <div class="usr-msg-details">
                   <div class="usr-ms-img">
                   <a href="user-profile.php?username=<?php echo $usernamerd; ?>" title="">
-                    <img src="users_img/users_pp/<?php echo $userppp; ?>" alt="">
+                    <img src="users_Img/users_pp/<?php echo $userppp; ?>" alt="">
                   </a>
                   </div>
                   <div class="usr-mg-info">
@@ -283,7 +283,7 @@ function str_con_cat($data)
 
                       <div class="main-message-box ta-right">
                         <div class="messg-usr-img">
-                          <img src="users_img/users_pp/<?php echo $pp; ?>" alt="">
+                          <img src="users_Img/users_pp/<?php echo $pp; ?>" alt="">
                         </div>
                         <div class="message-dt">
                           <div class="message-inner-dt img-bx">
@@ -419,7 +419,7 @@ function str_con_cat($data)
 
                         </div>
                         <div class="messg-usr-img">
-                          <img src="users_img/users_pp/<?php echo $pp; ?>" alt="">
+                          <img src="users_Img/users_pp/<?php echo $pp; ?>" alt="">
                         </div>
                       </div>
 
@@ -473,7 +473,7 @@ function str_con_cat($data)
 
                       <div class="main-message-box st3">
                         <div class="messg-usr-img">
-                          <img src="users_img/users_pp/<?php echo $userppp; ?>" alt="">
+                          <img src=users_Img/users_pp/<?php echo $userppp; ?>" alt="">
                         </div>
                         <div class="message-dt st3">
                           <div class="message-inner-dt img-bx">
@@ -516,7 +516,7 @@ function str_con_cat($data)
                           </span>
                         </div>
                         <div class="messg-usr-img">
-                          <img src="users_img/users_pp/<?php echo $userppp; ?>" alt="">
+                          <img src="users_Img/users_pp/<?php echo $userppp; ?>" alt="">
                         </div>
                       </div>
 

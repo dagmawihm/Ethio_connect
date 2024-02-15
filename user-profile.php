@@ -69,7 +69,7 @@ if (!isset($_GET['username'])) {
                                         <?php
                                         }
                                         ?>
-                                        <img src="users_img/users_pp/<?php echo $pp_s_r; ?>" style="width: 200px;">
+                                        <img src="users_Img/users_pp/<?php echo $pp_s_r; ?>" style="width: 200px;">
 
                                     </div>
                                     <div class="user_pro_status">
@@ -292,7 +292,7 @@ if (!isset($_GET['username'])) {
                                             <div class="post-bar">
                                                 <div class="post_topbar">
                                                     <div class="usy-dt">
-                                                        <img src="users_img/users_pp/<?php echo $userpp; ?>" alt="" style="width: 10%;">
+                                                        <img src="users_Img/users_pp/<?php echo $userpp; ?>" alt="" style="width: 10%;">
                                                         <div class="usy-name">
                                                             <h3><?php echo $ffname, " ", $llname; ?></h3>
                                                             <span><img src="images/clock.png" alt=""><?php echo $post_date; ?></span>
@@ -353,12 +353,6 @@ if (!isset($_GET['username'])) {
                                                     <?php
                                                     }
                                                     ?>
-
-                                                </div>
-                                                <div class="epi-sec">
-                                                    <ul class="descp">
-                                                        <li><img src="images/icon8.png" alt=""><span><?php echo $userbio; ?></span></li>
-                                                    </ul>
 
                                                 </div>
                                                 <div class="job_descp">
@@ -646,7 +640,7 @@ if (!isset($_GET['username'])) {
 
                                                                                         ?>
                                                                                             <a href="user-profile.php?username=<?php echo $username_com; ?>">
-                                                                                                <img src="users_img/users_pp/<?php echo $profile_picc; ?>" style="width: 40px; margin: 27px;" alt="">
+                                                                                                <img src="users_Img/users_pp/<?php echo $profile_picc; ?>" style="width: 40px; margin: 27px;" alt="">
                                                                                             </a>
                                                                                     </div>
                                                                                 </th>
@@ -810,7 +804,7 @@ if (!isset($_GET['username'])) {
 
                                                     <div class="post-comment">
                                                         <div class="cm_img">
-                                                            <img src="users_img/users_pp/<?php echo $pp; ?>" style="width: 40px;" alt="">
+                                                            <img src="users_Img/users_pp/<?php echo $pp; ?>" style="width: 40px;" alt="">
                                                         </div>
                                                         <div class="comment_box">
                                                             <form method="POST" action="" onsubmit="return add_comment<?php echo $post_id; ?>();">

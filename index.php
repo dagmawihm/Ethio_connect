@@ -100,7 +100,7 @@ session_start();
                                     <div class="user-profile">
                                         <div class="username-dt">
                                             <div class="usr-pic">
-                                                <img src="users_img/users_pp/<?php echo $pp; ?>" alt="">
+                                                <img src="users_Img/users_pp/<?php echo $pp; ?>" alt="">
                                             </div>
                                         </div>
                                         <div class="user-specs">
@@ -190,7 +190,7 @@ session_start();
                             <div class="main-ws-sec">
                                 <div class="post-topbar">
                                     <div class="user-picy">
-                                        <img src="users_img/users_pp/<?php echo $pp; ?>" alt="">
+                                        <img src="users_Img/users_pp/<?php echo $pp; ?>" alt="">
                                     </div>
                                     <div class="post-st">
                                         <div id="wrapper">
@@ -343,7 +343,7 @@ session_start();
                                             <div class="post_topbar">
                                                 <a href="user-profile.php?username=<?php echo $username_post; ?>">
                                                     <div class="usy-dt">
-                                                        <img src="users_img/users_pp/<?php echo $userpp; ?>" alt="" style="width: 10%;">
+                                                        <img src="users_Img/users_pp/<?php echo $userpp; ?>" alt="" style="width: 10%;">
                                                         <div class="usy-name">
                                                             <h3><?php echo $ffname, " ", $llname; ?></h3>
                                                             <span><img src="images/clock.png" alt=""><?php echo $post_date; ?></span>
@@ -407,12 +407,6 @@ session_start();
                                                 <?php
                                                 }
                                                 ?>
-
-                                            </div>
-                                            <div class="epi-sec">
-                                                <ul class="descp">
-                                                    <li><img src="images/icon8.png" alt=""><span><?php echo $userbio; ?></span></li>
-                                                </ul>
 
                                             </div>
                                             <div class="job_descp">
@@ -702,7 +696,7 @@ session_start();
 
                                                                                     ?>
                                                                                         <a href="user-profile.php?username=<?php echo $username_com; ?>">
-                                                                                            <img src="users_img/users_pp/<?php echo $profile_picc; ?>" style="width: 40px; margin: 27px;" alt="">
+                                                                                            <img src="users_Img/users_pp/<?php echo $profile_picc; ?>" style="width: 40px; margin: 27px;" alt="">
                                                                                         </a>
                                                                                 </div>
                                                                             </th>
@@ -875,7 +869,7 @@ session_start();
 
                                                 <div class="post-comment">
                                                     <div class="cm_img">
-                                                        <img src="users_img/users_pp/<?php echo $pp; ?>" style="width: 40px;" alt="">
+                                                        <img src="users_Img/users_pp/<?php echo $pp; ?>" style="width: 40px;" alt="">
                                                     </div>
                                                     <div class="comment_box">
                                                         <form method="POST" action="" onsubmit="return add_comment<?php echo $post_id; ?>();">
